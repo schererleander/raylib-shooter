@@ -99,7 +99,7 @@ int main(void) {
     const int screenWidth = 800;
     const int screenHeight = 450;
 
-    InitWindow(screenWidth, screenHeight, "Wizard");
+    InitWindow(screenWidth, screenHeight, "Shooter");
 
     Vector2 playerPosition = { (float)screenWidth / 2, (float)screenHeight / 2 };
     Vector2 playerMovementVec = { 0.0f, 0.0f };
