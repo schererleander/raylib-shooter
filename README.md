@@ -1,1 +1,2 @@
 # raylib-shooter
+![](screenshot.png)
