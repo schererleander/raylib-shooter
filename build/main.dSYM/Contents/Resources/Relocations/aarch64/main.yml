@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     'build/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _updatePlayerMovement, symObjAddr: 0x0, symBinAddr: 0x10000314C, symSize: 0x2A0 }
+  - { offsetInCU: 0x56, offset: 0x56, size: 0x8, addend: 0x0, symName: _updatePlayerMovement, symObjAddr: 0x0, symBinAddr: 0x10000314C, symSize: 0x2A0 }
+  - { offsetInCU: 0xCE, offset: 0xCE, size: 0x8, addend: 0x0, symName: _updateBullet, symObjAddr: 0x2A0, symBinAddr: 0x1000033EC, symSize: 0x20C }
+  - { offsetInCU: 0x12A, offset: 0x12A, size: 0x8, addend: 0x0, symName: _moveEnemy, symObjAddr: 0x4AC, symBinAddr: 0x1000035F8, symSize: 0x18 }
+  - { offsetInCU: 0x15C, offset: 0x15C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x4C4, symBinAddr: 0x100003610, symSize: 0x808 }
+...
